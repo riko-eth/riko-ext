@@ -1,0 +1,186 @@
+{
+    "name": "target_adress",
+    "roles": [
+        "target_adress"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "0xdead",
+            "synonyms": [
+                "0xdead"
+            ]
+        },
+        {
+            "keyword": "0x6a19891E91a3D4d690Cc8F9627290D25BFd34Df6",
+            "synonyms": [
+                "0x6a19891e91a3d4d690cc8f9627290d25bfd34df6"
+            ]
+        },
+        {
+            "keyword": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96043",
+            "synonyms": [
+                "0xd8da6bf26964af9d7eed9e03e53415d37aa96043"
+            ]
+        },
+        {
+            "keyword": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96044",
+            "synonyms": [
+                "0xd8da6bf26964af9d7eed9e03e53415d37aa96044"
+            ]
+        },
+        {
+            "keyword": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "synonyms": [
+                "0xd8da6bf26964af9d7eed9e03e53415d37aa96045"
+            ]
+        },
+        {
+            "keyword": "Arantza.eth",
+            "synonyms": [
+                "arantza.eth"
+            ]
+        },
+        {
+            "keyword": "Hunter.eth",
+            "synonyms": [
+                "hunter.eth"
+            ]
+        },
+        {
+            "keyword": "Test.eth",
+            "synonyms": [
+                "test.eth"
+            ]
+        },
+        {
+            "keyword": "TravCrypto.eth",
+            "synonyms": [
+                "travcrypto.eth"
+            ]
+        },
+        {
+            "keyword": "abcd.eth",
+            "synonyms": [
+                "abcd.eth"
+            ]
+        },
+        {
+            "keyword": "bfresh.eth",
+            "synonyms": [
+                "bfresh.eth"
+            ]
+        },
+        {
+            "keyword": "ethwalletadress.eth",
+            "synonyms": [
+                "ethwalletadress.eth"
+            ]
+        },
+        {
+            "keyword": "fdkjlsjfasl.eth",
+            "synonyms": [
+                "fdkjlsjfasl.eth"
+            ]
+        },
+        {
+            "keyword": "jlfdsakjdgsla.eth",
+            "synonyms": [
+                "jlfdsakjdgsla.eth"
+            ]
+        },
+        {
+            "keyword": "kjhsfkhs.eth",
+            "synonyms": [
+                "kjhsfkhs.eth"
+            ]
+        },
+        {
+            "keyword": "lksjflsakjdskjsald.eth",
+            "synonyms": [
+                "lksjflsakjdskjsald.eth"
+            ]
+        },
+        {
+            "keyword": "lskajlafjs.eth",
+            "synonyms": [
+                "lskajlafjs.eth"
+            ]
+        },
+        {
+            "keyword": "river.eth",
+            "synonyms": [
+                "river.eth"
+            ]
+        },
+        {
+            "keyword": "slkfjasl.eth",
+            "synonyms": [
+                "slkfjasl.eth"
+            ]
+        },
+        {
+            "keyword": "sporkdao.eth",
+            "synonyms": [
+                "sporkdao.eth"
+            ]
+        },
+        {
+            "keyword": "tester.eth",
+            "synonyms": [
+                "tester.eth"
+            ]
+        },
+        {
+            "keyword": "thisisawallet.eth",
+            "synonyms": [
+                "thisisawallet.eth"
+            ]
+        },
+        {
+            "keyword": "thiswallet.eth",
+            "synonyms": [
+                "thiswallet.eth"
+            ]
+        },
+        {
+            "keyword": "travis.eth",
+            "synonyms": [
+                "travis.eth"
+            ]
+        },
+        {
+            "keyword": "travisweth.eth",
+            "synonyms": [
+                "travisweth.eth"
+            ]
+        },
+        {
+            "keyword": "v.eth",
+            "synonyms": [
+                "v.eth"
+            ]
+        },
+        {
+            "keyword": "vitalik.eth",
+            "synonyms": [
+                "vitalik.eth"
+            ]
+        },
+        {
+            "keyword": "weth.eth",
+            "synonyms": [
+                "weth.eth"
+            ]
+        },
+        {
+            "keyword": "whatisthebalance.eth",
+            "synonyms": [
+                "whatisthebalance.eth"
+            ]
+        }
+    ]
+}

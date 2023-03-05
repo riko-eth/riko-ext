@@ -1,0 +1,9 @@
+{
+    "name": "ca_buy",
+    "entities": [
+        "source_currency:source_currency",
+        "target_currency:target_currency",
+        "verb:verb",
+        "wit$number:number"
+    ]
+}

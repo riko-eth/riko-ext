@@ -1,0 +1,8 @@
+{
+    "name": "ca_balance",
+    "entities": [
+        "address_balance:address_balance",
+        "target_adress:target_adress",
+        "verb:verb"
+    ]
+}

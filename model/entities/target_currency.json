@@ -1,0 +1,81 @@
+{
+    "name": "target_currency",
+    "roles": [
+        "target_currency"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "bnb",
+            "synonyms": [
+                "bnb"
+            ]
+        },
+        {
+            "keyword": "busd",
+            "synonyms": [
+                "busd"
+            ]
+        },
+        {
+            "keyword": "dai",
+            "synonyms": [
+                "dai"
+            ]
+        },
+        {
+            "keyword": "eth",
+            "synonyms": [
+                "eth",
+                "ether",
+                "ethereum"
+            ]
+        },
+        {
+            "keyword": "link",
+            "synonyms": [
+                "link"
+            ]
+        },
+        {
+            "keyword": "matic",
+            "synonyms": [
+                "matic"
+            ]
+        },
+        {
+            "keyword": "okb",
+            "synonyms": [
+                "okb"
+            ]
+        },
+        {
+            "keyword": "uni",
+            "synonyms": [
+                "uni"
+            ]
+        },
+        {
+            "keyword": "usdc",
+            "synonyms": [
+                "usd coin",
+                "usdc"
+            ]
+        },
+        {
+            "keyword": "usdt",
+            "synonyms": [
+                "usdt"
+            ]
+        },
+        {
+            "keyword": "weth",
+            "synonyms": [
+                "weth"
+            ]
+        }
+    ]
+}

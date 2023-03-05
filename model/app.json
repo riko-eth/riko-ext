@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip riko.zip riko\/app.json riko\/entities\/*.json riko\/intents\/*.json riko\/traits\/*.json riko\/utterances\/*.json riko\/composer\/*.json",
+    "name": "riko",
+    "lang": "en",
+    "timezone": "America\/Los_Angeles"
+}

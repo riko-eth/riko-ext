@@ -1,0 +1,120 @@
+{
+    "name": "currency_amount",
+    "roles": [
+        "currency_amount"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "0.0384793297239",
+            "synonyms": [
+                "0.0384793297239"
+            ]
+        },
+        {
+            "keyword": "0.1",
+            "synonyms": [
+                "0.1"
+            ]
+        },
+        {
+            "keyword": "0.1234567859",
+            "synonyms": [
+                "0.1234567859"
+            ]
+        },
+        {
+            "keyword": "0.234598749753",
+            "synonyms": [
+                "0.234598749753"
+            ]
+        },
+        {
+            "keyword": "0.284",
+            "synonyms": [
+                "0.284"
+            ]
+        },
+        {
+            "keyword": "1",
+            "synonyms": [
+                "1"
+            ]
+        },
+        {
+            "keyword": "4.345",
+            "synonyms": [
+                "4.345"
+            ]
+        },
+        {
+            "keyword": "67",
+            "synonyms": [
+                "67"
+            ]
+        },
+        {
+            "keyword": "100",
+            "synonyms": [
+                "100"
+            ]
+        },
+        {
+            "keyword": "567.470578095834",
+            "synonyms": [
+                "567.470578095834"
+            ]
+        },
+        {
+            "keyword": "1000",
+            "synonyms": [
+                "1000"
+            ]
+        },
+        {
+            "keyword": "1000.0",
+            "synonyms": [
+                "1000.0"
+            ]
+        },
+        {
+            "keyword": "021984",
+            "synonyms": [
+                "021984"
+            ]
+        },
+        {
+            "keyword": "469897",
+            "synonyms": [
+                "469897"
+            ]
+        },
+        {
+            "keyword": "1000000.0387289",
+            "synonyms": [
+                "1000000.0387289"
+            ]
+        },
+        {
+            "keyword": "5494379857.0953470954",
+            "synonyms": [
+                "5494379857.0953470954"
+            ]
+        },
+        {
+            "keyword": "8675903948",
+            "synonyms": [
+                "8675903948"
+            ]
+        },
+        {
+            "keyword": "9437982374",
+            "synonyms": [
+                "9437982374"
+            ]
+        }
+    ]
+}

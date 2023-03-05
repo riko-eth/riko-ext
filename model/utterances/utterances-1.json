@@ -1,0 +1,3474 @@
+{
+    "utterances": [
+        {
+            "text": "0x6a19891E91a3D4d690Cc8F9627290D25BFd34Df6 balance",
+            "entities": [
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 0,
+                    "end": 42,
+                    "body": "0x6a19891E91a3D4d690Cc8F9627290D25BFd34Df6",
+                    "entities": []
+                },
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 43,
+                    "end": 50,
+                    "body": "balance",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045 balance",
+            "entities": [
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 0,
+                    "end": 42,
+                    "body": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+                    "entities": []
+                },
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 43,
+                    "end": 50,
+                    "body": "balance",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "1 eth sell for usdc",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 2,
+                    "end": 5,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 6,
+                    "end": 10,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 15,
+                    "end": 19,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "1 eth to usd",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 2,
+                    "end": 5,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "100 eth to ust",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 4,
+                    "end": 7,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "5494379857.0953470954 dai to usdc",
+            "entities": [
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 0,
+                    "end": 21,
+                    "body": "5494379857.0953470954",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 22,
+                    "end": 25,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 29,
+                    "end": 33,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "amount in 0x6a19891E91a3D4d690Cc8F9627290D25BFd34Df6",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 6,
+                    "body": "amount",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 10,
+                    "end": 52,
+                    "body": "0x6a19891E91a3D4d690Cc8F9627290D25BFd34Df6",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "balance lksjflsakjdskjsald.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 7,
+                    "body": "balance",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 8,
+                    "end": 30,
+                    "body": "lksjflsakjdskjsald.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "balance of 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "entities": [
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 0,
+                    "end": 7,
+                    "body": "balance",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 11,
+                    "end": 53,
+                    "body": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "buy 0.001 eth with usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 10,
+                    "end": 13,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 19,
+                    "end": 23,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy 1 eth from usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 6,
+                    "end": 9,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 15,
+                    "end": 19,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy 1 eth using my usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 6,
+                    "end": 9,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 19,
+                    "end": 23,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy 1 eth using usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 6,
+                    "end": 9,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 16,
+                    "end": 20,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy 100 dai using usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 18,
+                    "end": 22,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 8,
+                    "end": 11,
+                    "body": "dai",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy 100 eth for usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 8,
+                    "end": 11,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 16,
+                    "end": 20,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy 100 eth with usd",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 8,
+                    "end": 11,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy 100 eth with usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 8,
+                    "end": 11,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 17,
+                    "end": 21,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy 100 usdc from eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 8,
+                    "end": 12,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 18,
+                    "end": 21,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy 100 usdc using eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 8,
+                    "end": 12,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 19,
+                    "end": 22,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy 45.6759 weth with usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 4,
+                    "end": 11,
+                    "body": "45.6759",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 22,
+                    "end": 26,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 12,
+                    "end": 16,
+                    "body": "weth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "buy uSdC with ETH",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "buy",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 4,
+                    "end": 8,
+                    "body": "uSdC",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 14,
+                    "end": 17,
+                    "body": "ETH",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "can you please create a wallet for me?",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 15,
+                    "end": 21,
+                    "body": "create",
+                    "entities": []
+                },
+                {
+                    "entity": "new_wallet:new_wallet",
+                    "start": 24,
+                    "end": 30,
+                    "body": "wallet",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_create"
+        },
+        {
+            "text": "change 1 dai to usdt",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 6,
+                    "body": "change",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 12,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 16,
+                    "end": 20,
+                    "body": "usdt",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "create a new wallet",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 6,
+                    "body": "create",
+                    "entities": []
+                },
+                {
+                    "entity": "new_wallet:new_wallet",
+                    "start": 13,
+                    "end": 19,
+                    "body": "wallet",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_create"
+        },
+        {
+            "text": "create wallet",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 6,
+                    "body": "create",
+                    "entities": []
+                },
+                {
+                    "entity": "new_wallet:new_wallet",
+                    "start": 7,
+                    "end": 13,
+                    "body": "wallet",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_create"
+        },
+        {
+            "text": "cryp",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "exchange 34.76086 weth to usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "exchange",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 9,
+                    "end": 17,
+                    "body": "34.76086",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 18,
+                    "end": 22,
+                    "body": "weth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 26,
+                    "end": 30,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "find me the balance of travisweth.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "find",
+                    "entities": []
+                },
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 12,
+                    "end": 19,
+                    "body": "balance",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 23,
+                    "end": 37,
+                    "body": "travisweth.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "get 100 usdc with eth",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 8,
+                    "end": 12,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 18,
+                    "end": 21,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 3,
+                    "body": "get",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "how much does bfresh.eth have",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "how much",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 14,
+                    "end": 24,
+                    "body": "bfresh.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "how much does lskajlafjs.eth have?",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "how much",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 14,
+                    "end": 28,
+                    "body": "lskajlafjs.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "how much does travcrypto.eth have",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "how much",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 14,
+                    "end": 28,
+                    "body": "travcrypto.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "obtain 100 eth with usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 6,
+                    "body": "obtain",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 11,
+                    "end": 14,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 20,
+                    "end": 24,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "please open a wallet for me",
+            "entities": [
+                {
+                    "entity": "new_wallet:new_wallet",
+                    "start": 14,
+                    "end": 20,
+                    "body": "wallet",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 7,
+                    "end": 11,
+                    "body": "open",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_create"
+        },
+        {
+            "text": "please sell 100 usdc for eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 7,
+                    "end": 11,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 16,
+                    "end": 20,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 25,
+                    "end": 28,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "please sell my 100 eth for usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 7,
+                    "end": 11,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 27,
+                    "end": 31,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 19,
+                    "end": 22,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "please swap 100 eth to usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 7,
+                    "end": 11,
+                    "body": "swap",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 16,
+                    "end": 19,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 23,
+                    "end": 27,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "purchase 1 eth with dai",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "purchase",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 11,
+                    "end": 14,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 20,
+                    "end": 23,
+                    "body": "dai",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "purchase 100 USDC with ETH",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "purchase",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 13,
+                    "end": 17,
+                    "body": "USDC",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 23,
+                    "end": 26,
+                    "body": "ETH",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "purchase 100 eth with usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "purchase",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 13,
+                    "end": 16,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 22,
+                    "end": 26,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "sell",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 0 eth to usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 14,
+                    "end": 18,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 1 dai to usdc",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 14,
+                    "end": 18,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 6,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 1 eth for usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 15,
+                    "end": 19,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 1 eth from my wallet to usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 29,
+                    "end": 33,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 1 eth to usdc",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 14,
+                    "end": 18,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 1 usdc for eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 16,
+                    "end": 19,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 11,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 1 usdt to dai",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 11,
+                    "body": "usdt",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 15,
+                    "end": 18,
+                    "body": "dai",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 10",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 100",
+            "entities": [
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 8,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 100 dai",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 9,
+                    "end": 12,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 8,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 100 eth for usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 12,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 17,
+                    "end": 21,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 100 usdc for eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 13,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 18,
+                    "end": 21,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 100 usdc to",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 13,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 8,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 100 usdc to eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 13,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 17,
+                    "end": 20,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 1000 usdc for weth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 9,
+                    "body": "1000",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 10,
+                    "end": 14,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 19,
+                    "end": 23,
+                    "body": "weth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell 567.470578095834 eth to usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 21,
+                    "body": "567.470578095834",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 22,
+                    "end": 25,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 29,
+                    "end": 33,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell my 1 eth for usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 10,
+                    "end": 13,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 18,
+                    "end": 22,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "sell my usdc for eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "sell",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 8,
+                    "end": 12,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 17,
+                    "end": 20,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "send",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 0.1234567859 eth to 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 17,
+                    "body": "0.1234567859",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 18,
+                    "end": 21,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 25,
+                    "end": 67,
+                    "body": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 0.284 dai to vitalik.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 10,
+                    "body": "0.284",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 11,
+                    "end": 14,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 18,
+                    "end": 29,
+                    "body": "vitalik.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 1",
+            "entities": [
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 6,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 1 eth",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 6,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 1 eth to",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 6,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 1 eth to 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 6,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 14,
+                    "end": 56,
+                    "body": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 1 eth to Test.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 6,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 14,
+                    "end": 22,
+                    "body": "Test.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 1 eth to travis.eth",
+            "entities": [
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 14,
+                    "end": 24,
+                    "body": "travis.eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 6,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 100 eth to 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96043",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 8,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 12,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 16,
+                    "end": 58,
+                    "body": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96043",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 100 eth top ViTaLIk.eTh",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 8,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 12,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 17,
+                    "end": 28,
+                    "body": "ViTaLIk.eTh",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 100 usdc to river.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 8,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 13,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 17,
+                    "end": 26,
+                    "body": "river.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 4.345 okx to 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 10,
+                    "body": "4.345",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 11,
+                    "end": 14,
+                    "body": "okx",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 18,
+                    "end": 60,
+                    "body": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 67 eth to tester.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 7,
+                    "body": "67",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 8,
+                    "end": 11,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 15,
+                    "end": 25,
+                    "body": "tester.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send 9437982374 usdc to abcd.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 15,
+                    "body": "9437982374",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 16,
+                    "end": 20,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 24,
+                    "end": 32,
+                    "body": "abcd.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send my 100 usdc to 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 8,
+                    "end": 11,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 12,
+                    "end": 16,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 20,
+                    "end": 62,
+                    "body": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send my 100 usdc to Arantza.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 8,
+                    "end": 11,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 12,
+                    "end": 16,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 20,
+                    "end": 31,
+                    "body": "Arantza.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send my 469897 eth to TravCrypto.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 8,
+                    "end": 14,
+                    "body": "469897",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 15,
+                    "end": 18,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 22,
+                    "end": 36,
+                    "body": "TravCrypto.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "send river.eth 100 usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "send",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 5,
+                    "end": 14,
+                    "body": "river.eth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 19,
+                    "end": 23,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "show me the balance of slkfjasl.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "show",
+                    "entities": []
+                },
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 12,
+                    "end": 19,
+                    "body": "balance",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 23,
+                    "end": 35,
+                    "body": "slkfjasl.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "show me the balance of thisisawallet.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "show",
+                    "entities": []
+                },
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 12,
+                    "end": 19,
+                    "body": "balance",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 23,
+                    "end": 40,
+                    "body": "thisisawallet.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "show me the balance of thiswallet.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "show",
+                    "entities": []
+                },
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 12,
+                    "end": 19,
+                    "body": "balance",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 23,
+                    "end": 37,
+                    "body": "thiswallet.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "show the balance of whatisthebalance.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "show",
+                    "entities": []
+                },
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 9,
+                    "end": 16,
+                    "body": "balance",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 20,
+                    "end": 40,
+                    "body": "whatisthebalance.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "swap 0.000508590 usdc to weth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 16,
+                    "body": "0.000508590",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 17,
+                    "end": 21,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 25,
+                    "end": 29,
+                    "body": "weth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 0.1 eth",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 12,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 8,
+                    "body": "0.1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 0.1 weth",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 9,
+                    "end": 13,
+                    "body": "weth",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 8,
+                    "body": "0.1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 0.1 weth to usdt",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 17,
+                    "end": 21,
+                    "body": "usdt",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 13,
+                    "body": "weth",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 8,
+                    "body": "0.1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 1 dai",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 6,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 1 uni for dai",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 15,
+                    "end": 18,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "uni",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 1 usdc",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 7,
+                    "end": 11,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 6,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 1 usdc to",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 11,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 6,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 1.4430832038 eth to usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 18,
+                    "end": 21,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 25,
+                    "end": 29,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 17,
+                    "body": "1.4430832038",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 10 dai to",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 8,
+                    "end": 11,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 7,
+                    "body": "10",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 10 dai to usdc",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 15,
+                    "end": 19,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 8,
+                    "end": 11,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 7,
+                    "body": "10",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 10 usdc",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 8,
+                    "end": 12,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 7,
+                    "body": "10",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 10 usdc to",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 8,
+                    "end": 12,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 7,
+                    "body": "10",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 10 usdc to dai",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 16,
+                    "end": 19,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 8,
+                    "end": 12,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 7,
+                    "body": "10",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 10 usdc to weth",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 16,
+                    "end": 20,
+                    "body": "weth",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 8,
+                    "end": 12,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 7,
+                    "body": "10",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 100 usdc to dai",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 17,
+                    "end": 20,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 13,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 8,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 100 usdc to eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 13,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 17,
+                    "end": 20,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 100 usdt for eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 13,
+                    "body": "usdt",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 18,
+                    "end": 21,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 1000 usdc to dai",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 18,
+                    "end": 21,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 10,
+                    "end": 14,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 5,
+                    "end": 8,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 1000000000000000000 eth to usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 25,
+                    "end": 28,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 32,
+                    "end": 36,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 5 dai to usdc",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 14,
+                    "end": 18,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 6,
+                    "body": "5",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 5 usdc to dai",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 15,
+                    "end": 18,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 11,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 6,
+                    "body": "5",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap 9 dai to usdc",
+            "entities": [
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 14,
+                    "end": 18,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 7,
+                    "end": 10,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 5,
+                    "end": 6,
+                    "body": "9",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "swap my usdc for eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "swap",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 8,
+                    "end": 12,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 17,
+                    "end": 20,
+                    "body": "eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "trade 1 eth to usdc",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 5,
+                    "body": "trade",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 8,
+                    "end": 11,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 15,
+                    "end": 19,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "transfer",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "transfer 0.0384793297239 dai to kjhsfkhs.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 9,
+                    "end": 24,
+                    "body": "0.0384793297239",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 25,
+                    "end": 28,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 32,
+                    "end": 44,
+                    "body": "kjhsfkhs.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "transfer 0.1 eth to sporkdao.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 9,
+                    "end": 12,
+                    "body": "0.1",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 13,
+                    "end": 16,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 20,
+                    "end": 32,
+                    "body": "sporkdao.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "transfer 0.234598749753 eth to 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96044",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 9,
+                    "end": 23,
+                    "body": "0.234598749753",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 24,
+                    "end": 27,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 31,
+                    "end": 73,
+                    "body": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96044",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "transfer 0.490740 weth to Hunter.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                },
+                {
+                    "entity": "wit$number:number",
+                    "start": 9,
+                    "end": 17,
+                    "body": "0.490740",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 18,
+                    "end": 22,
+                    "body": "weth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 26,
+                    "end": 36,
+                    "body": "Hunter.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "transfer 021984 dai to fdkjlsjfasl.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 9,
+                    "end": 15,
+                    "body": "021984",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 16,
+                    "end": 19,
+                    "body": "dai",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 23,
+                    "end": 38,
+                    "body": "fdkjlsjfasl.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "transfer 100 eth to 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 9,
+                    "end": 12,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 13,
+                    "end": 16,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 20,
+                    "end": 62,
+                    "body": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "transfer 100 usdc to vitalik.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 9,
+                    "end": 12,
+                    "body": "100",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 13,
+                    "end": 17,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 21,
+                    "end": 32,
+                    "body": "vitalik.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "transfer 1000.0 usdc to weth.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 9,
+                    "end": 15,
+                    "body": "1000.0",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 16,
+                    "end": 20,
+                    "body": "usdc",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 24,
+                    "end": 32,
+                    "body": "weth.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "transfer 1000000.0387289 eth to v.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 9,
+                    "end": 24,
+                    "body": "1000000.0387289",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 25,
+                    "end": 28,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 32,
+                    "end": 37,
+                    "body": "v.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "transfer 8675903948 eth to vitalik.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 8,
+                    "body": "transfer",
+                    "entities": []
+                },
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 20,
+                    "end": 23,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 27,
+                    "end": 38,
+                    "body": "vitalik.eth",
+                    "entities": []
+                },
+                {
+                    "entity": "currency_amount:currency_amount",
+                    "start": 9,
+                    "end": 19,
+                    "body": "8675903948",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_transfer"
+        },
+        {
+            "text": "use my 1 eth to purchase usdc",
+            "entities": [
+                {
+                    "entity": "source_currency:source_currency",
+                    "start": 9,
+                    "end": 12,
+                    "body": "eth",
+                    "entities": []
+                },
+                {
+                    "entity": "verb:verb",
+                    "start": 16,
+                    "end": 24,
+                    "body": "purchase",
+                    "entities": []
+                },
+                {
+                    "entity": "target_currency:target_currency",
+                    "start": 25,
+                    "end": 29,
+                    "body": "usdc",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_buy"
+        },
+        {
+            "text": "what is the balance of ethwalletadress.eth",
+            "entities": [
+                {
+                    "entity": "verb:verb",
+                    "start": 0,
+                    "end": 4,
+                    "body": "what",
+                    "entities": []
+                },
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 12,
+                    "end": 19,
+                    "body": "balance",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 23,
+                    "end": 42,
+                    "body": "ethwalletadress.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        },
+        {
+            "text": "what is the balance of jlfdsakjdgsla.eth wallet",
+            "entities": [
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 12,
+                    "end": 19,
+                    "body": "balance",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 23,
+                    "end": 40,
+                    "body": "jlfdsakjdgsla.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_sell"
+        },
+        {
+            "text": "what is the balance of vitalik.eth",
+            "entities": [
+                {
+                    "entity": "address_balance:address_balance",
+                    "start": 12,
+                    "end": 19,
+                    "body": "balance",
+                    "entities": []
+                },
+                {
+                    "entity": "target_adress:target_adress",
+                    "start": 23,
+                    "end": 34,
+                    "body": "vitalik.eth",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "ca_balance"
+        }
+    ]
+}

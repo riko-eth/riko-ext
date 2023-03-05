@@ -1,0 +1,7 @@
+{
+    "name": "ca_create",
+    "entities": [
+        "new_wallet:new_wallet",
+        "verb:verb"
+    ]
+}

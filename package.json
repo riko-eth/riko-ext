@@ -1,0 +1,48 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "riko",
+  "title": "crypto assistant",
+  "description": "Your gateway to crypto",
+  "icon": "icon.png",
+  "author": "rusintez",
+  "owner": "crypto-assistant",
+  "categories": [
+    "Finance",
+    "Productivity",
+    "Security"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "riko",
+      "subtitle": "crypto assistant",
+      "description": "Your gateway to crypto",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.48.4",
+    "dotenv": "^16.0.3",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@0x/contract-wrappers": "^13.22.16",
+    "@tanstack/react-query": "^4.24.10",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "got": "^12.5.3",
+    "prettier": "^2.5.1",
+    "typescript": "^4.4.3",
+    "web3": "^1.8.2"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "ray publish"
+  }
+}

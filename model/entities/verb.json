@@ -1,0 +1,126 @@
+{
+    "name": "verb",
+    "roles": [
+        "verb"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "amount",
+            "synonyms": [
+                "amount"
+            ]
+        },
+        {
+            "keyword": "balance",
+            "synonyms": [
+                "balance"
+            ]
+        },
+        {
+            "keyword": "buy",
+            "synonyms": [
+                "buy"
+            ]
+        },
+        {
+            "keyword": "change",
+            "synonyms": [
+                "change"
+            ]
+        },
+        {
+            "keyword": "create",
+            "synonyms": [
+                "create"
+            ]
+        },
+        {
+            "keyword": "exchange",
+            "synonyms": [
+                "exchange"
+            ]
+        },
+        {
+            "keyword": "find",
+            "synonyms": [
+                "find"
+            ]
+        },
+        {
+            "keyword": "get",
+            "synonyms": [
+                "get"
+            ]
+        },
+        {
+            "keyword": "how much",
+            "synonyms": [
+                "how much"
+            ]
+        },
+        {
+            "keyword": "obtain",
+            "synonyms": [
+                "obtain"
+            ]
+        },
+        {
+            "keyword": "open",
+            "synonyms": [
+                "open"
+            ]
+        },
+        {
+            "keyword": "purchase",
+            "synonyms": [
+                "purchase"
+            ]
+        },
+        {
+            "keyword": "sell",
+            "synonyms": [
+                "sell"
+            ]
+        },
+        {
+            "keyword": "send",
+            "synonyms": [
+                "send"
+            ]
+        },
+        {
+            "keyword": "show",
+            "synonyms": [
+                "show"
+            ]
+        },
+        {
+            "keyword": "swap",
+            "synonyms": [
+                "swap"
+            ]
+        },
+        {
+            "keyword": "trade",
+            "synonyms": [
+                "trade"
+            ]
+        },
+        {
+            "keyword": "transfer",
+            "synonyms": [
+                "transfer"
+            ]
+        },
+        {
+            "keyword": "what",
+            "synonyms": [
+                "what"
+            ]
+        }
+    ]
+}

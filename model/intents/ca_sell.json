@@ -1,0 +1,12 @@
+{
+    "name": "ca_sell",
+    "entities": [
+        "address_balance:address_balance",
+        "currency_amount:currency_amount",
+        "source_currency:source_currency",
+        "target_adress:target_adress",
+        "target_currency:target_currency",
+        "verb:verb",
+        "wit$number:number"
+    ]
+}
